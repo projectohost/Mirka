@@ -9,6 +9,12 @@ h1, h2, footer, nav, p {
   font-style: normal;
 }
 
+.some{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 table{
      font-size: 20 px;
      color: blueviolet; 
