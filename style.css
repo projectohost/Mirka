@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+}
+
+h1, h2, footer, nav, p {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+table{
+     font-size: 20 px;
+     color: blueviolet; 
+}
+body{
+        font-size: 20px;
+        background-color: whitesmoke;
+
+    }
+     h1{                                      
+        backround:blue;
+        color:blue;
+        text-align: center;
+      }
+    table tr td{
+        text-align: center;
+      }
+    footer{
+        font-size: 20px;
+    }
+    td{
+      border: 3px solid aquamarine;
+    }
+   .t2{
+     margin: 20px;
+   }
+
+  .nav{
+    background-color: aquamarine;
+    padding: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    font-size: x-large;
+  }
+
+.posilanya a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+
+}
+
+.posilanya{
+  display: flex;
+  gap: 30px;
+}
+
+ footer{
+    background-color: aquamarine;
+    padding: 35px;
+    margin-top: 35px;
+  }
+
+.bg{
+  background-color: #6495ED;
+  border-radius: 30px;
+  margin: 50px 0;
+} 
+/* stsart */
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .flex-item {
+        flex: 0 1 calc(50% - 10px);
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .flex-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto; /* Aligns the images horizontally */
+    }
+    .flex-item p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: aquamarine;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .marg{
+      margin: 40px 40px;
+    }
+
+    h2{
+      
+      display: flex;
+     justify-content: center;
+    }
+
+    .video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+iframe{
+    border: 10px solid lightblue;
+    border-radius: 20px;
+}
